@@ -1,0 +1,6 @@
+{
+  "name": "Pahlawan Syair: Kembara Irama Melayu",
+  "description": "Aplikasi Pembelajaran Bahasa Melayu Tahun 5 (DSKP 4.2.1) - Melagukan Syair dengan Irama Melayu Tradisional, Menghayati Lenggok Seni Bahasa, dan Menganalisis Idea Keseluruhan.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
