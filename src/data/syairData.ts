@@ -489,15 +489,15 @@ export const BADGES_LIST: Badge[] = [
     icon: 'BookOpen',
     description: 'Menyelesaikan modul pembelajaran dan meneroka makna syair.',
     unlockedAtXp: 80,
-    criteria: 'Selesaikan pembelajaran di Pondok Irama dan Bedah Makna.'
+    criteria: 'Selesaikan pembelajaran di Pondok Irama dan Fahami Syair.'
   },
   {
     id: 'jaguh_irama',
     name: 'Jaguh Irama',
     icon: 'Music',
-    description: 'Berjaya memadankan rentak Irama Dodoi dan Selendang Delima dalam Padankan Irama.',
+    description: 'Berjaya memadankan rentak Irama Dodoi dan Selendang Delima dalam Teka Irama.',
     unlockedAtXp: 180,
-    criteria: 'Capai sekurang-kurangnya 3 daripada 4 jawapan betul dalam Padankan Irama.'
+    criteria: 'Capai sekurang-kurangnya 3 daripada 4 jawapan betul dalam Teka Irama.'
   },
   {
     id: 'penyusun_hikmah',
@@ -511,9 +511,9 @@ export const BADGES_LIST: Badge[] = [
     id: 'maestro_syair',
     name: 'Maestro Syair',
     icon: 'Crown',
-    description: 'Melagukan syair dengan irama yang sesuai dan melengkapkan pentaksiran karaoke.',
+    description: 'Melagukan syair dengan irama yang sesuai dan melengkapkan pentaksiran Lagukan Syair.',
     unlockedAtXp: 400,
-    criteria: 'Rakam lagu syair di Karaoke Pahlawan dan lengkapkan refleksi kendiri.'
+    criteria: 'Rakam lagu syair di Lagukan Syair dan lengkapkan refleksi kendiri.'
   }
 ];
 

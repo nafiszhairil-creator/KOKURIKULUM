@@ -51,7 +51,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           <p className="text-sm sm:text-base text-amber-200/90 leading-relaxed mb-6 font-sans">
             Sertai penjelajahan sastera di Pulau Irama! Hayati keindahan melodi tradisional
             <span className="text-amber-300 font-semibold"> Irama Dodoi</span> dan
-            <span className="text-amber-300 font-semibold"> Irama Selendang Delima</span>, serta bedah makna dan idea keseluruhan syair Tahun 5 secara interaktif.
+            <span className="text-amber-300 font-semibold"> Irama Selendang Delima</span>, serta fahami syair dan idea keseluruhan syair Tahun 5 secara interaktif.
           </p>
 
           {/* Interactive Character Speech Bubble */}

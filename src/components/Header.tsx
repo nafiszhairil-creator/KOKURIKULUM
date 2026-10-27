@@ -37,10 +37,10 @@ export const Header: React.FC<HeaderProps> = ({
   const studentNavItems = [
     { id: 'utama', label: 'Utama' },
     { id: 'pondok', label: 'Pondok Irama' },
-    { id: 'bedah', label: 'Bedah Makna' },
-    { id: 'game_match', label: 'Padankan Irama' },
+    { id: 'bedah', label: 'Fahami Syair' },
+    { id: 'game_match', label: 'Teka Irama' },
     { id: 'game_tangkap', label: 'Tangkap Kata' },
-    { id: 'karaoke', label: 'Karaoke Pahlawan' },
+    { id: 'karaoke', label: 'Lagukan Syair' },
     { id: 'ganjaran', label: 'Ganjaran' },
   ];
 

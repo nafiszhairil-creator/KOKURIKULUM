@@ -230,10 +230,10 @@ export const exportStudentsToCsv = (): void => {
     'Jumlah Bintang',
     'Lencana',
     'Pondok Irama',
-    'Bedah Makna',
-    'Padankan Irama',
+    'Fahami Syair',
+    'Teka Irama',
     'Tangkap Kata',
-    'Karaoke',
+    'Lagukan Syair',
     'Purata Kuiz (%)',
     'Markah Pentaksiran Guru (%)',
     'Komen Guru'

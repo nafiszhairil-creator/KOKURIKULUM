@@ -81,16 +81,16 @@ export const DokumentasiDSKPModal: React.FC<DokumentasiDSKPModalProps> = ({ isOp
                 <strong className="text-amber-900 block text-xs uppercase">2. Mod Pembelajaran</strong>
                 <p className="text-[11px] text-slate-600">
                   <strong>Pondok Irama:</strong> Pemain YouTube sah, melodi seruling sintesis, jeda nafas.<br />
-                  <strong>Bedah Makna:</strong> 4 rangkap, glosari 8 kata klasik, kuiz 5 soalan bertaraf DSKP.
+                  <strong>Fahami Syair:</strong> 4 rangkap, glosari 8 kata klasik, kuiz 5 soalan bertaraf DSKP.
                 </p>
               </div>
 
               <div className="p-3.5 bg-slate-50 rounded-xl border border-slate-200 space-y-1">
                 <strong className="text-amber-900 block text-xs uppercase">3. Permainan & Pentaksiran</strong>
                 <p className="text-[11px] text-slate-600">
-                  <strong>Irama Match:</strong> 6 pusingan Dodoi vs Selendang Delima.<br />
+                  <strong>Teka Irama:</strong> 4 segmen Dodoi vs Selendang Delima.<br />
                   <strong>Tangkap Kunci Kata:</strong> 35s arkade membina idea.<br />
-                  <strong>Karaoke & PBD:</strong> Rakaman suara + rubrik skala 1-4.
+                  <strong>Lagukan Syair & PBD:</strong> Rakaman suara + rubrik skala 1-4.
                 </p>
               </div>
             </div>

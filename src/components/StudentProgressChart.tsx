@@ -92,13 +92,13 @@ export const StudentProgressChart: React.FC<StudentProgressChartProps> = ({ stud
       },
       {
         fasa: 'Fasa 2',
-        label: 'Bedah Makna (R1 & R2)',
+        label: 'Fahami Syair (R1 & R2)',
         xpGain: (r1 > 0 ? 35 : 0) + (r2 > 0 ? 35 : 0),
         quizScorePct: Math.round(((r1 + r2) / 10) * 100)
       },
       {
         fasa: 'Fasa 3',
-        label: 'Padankan Irama',
+        label: 'Teka Irama',
         xpGain: student.completedModules.gameIramaMatch ? 40 : 0,
         quizScorePct: student.completedModules.gameIramaMatch ? 90 : 0
       },
@@ -110,7 +110,7 @@ export const StudentProgressChart: React.FC<StudentProgressChartProps> = ({ stud
       },
       {
         fasa: 'Fasa 5',
-        label: 'Karaoke Pahlawan',
+        label: 'Lagukan Syair',
         xpGain: student.completedModules.karaoke ? 60 : 0,
         quizScorePct: student.karaokeAssessment ? student.karaokeAssessment.totalScore : 0
       }

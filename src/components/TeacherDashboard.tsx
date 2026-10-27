@@ -67,7 +67,7 @@ export const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
   const [teacherNameInput, setTeacherNameInput] = useState<string>('Cikgu Zulaikha');
   const [saveSuccessMsg, setSaveSuccessMsg] = useState<string | null>(null);
 
-  // Padankan Irama Audio Keys Verification State
+  // Teka Irama Audio Keys Verification State
   const [teacherAudioKeys, setTeacherAudioKeys] = useState<TeacherAudioKeys>(getTeacherAudioKeys());
   const [keyUpdateMsg, setKeyUpdateMsg] = useState<string | null>(null);
 
@@ -448,7 +448,7 @@ export const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
                         : 'bg-slate-200 text-slate-600'
                     }`}
                   >
-                    {selectedStudent.completedModules.bedahMakna ? '✓' : '○'} Bedah Makna
+                    {selectedStudent.completedModules.bedahMakna ? '✓' : '○'} Fahami Syair
                   </span>
                   <span
                     className={`px-2 py-0.5 rounded text-[10px] font-semibold flex items-center gap-1 ${
@@ -457,7 +457,7 @@ export const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
                         : 'bg-slate-200 text-slate-600'
                     }`}
                   >
-                    {selectedStudent.completedModules.gameIramaMatch ? '✓' : '○'} Padankan Irama
+                    {selectedStudent.completedModules.gameIramaMatch ? '✓' : '○'} Teka Irama
                   </span>
                   <span
                     className={`px-2 py-0.5 rounded text-[10px] font-semibold flex items-center gap-1 ${
@@ -475,7 +475,7 @@ export const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
                         : 'bg-slate-200 text-slate-600'
                     }`}
                   >
-                    {selectedStudent.completedModules.karaoke ? '✓' : '○'} Karaoke
+                    {selectedStudent.completedModules.karaoke ? '✓' : '○'} Lagukan Syair
                   </span>
                 </div>
               </div>
@@ -659,7 +659,7 @@ export const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
         </div>
       </div>
 
-      {/* Section D: Pengesahan Kunci Jawapan Segmen Audio — Padankan Irama */}
+      {/* Section D: Pengesahan Kunci Jawapan Segmen Audio — Teka Irama */}
       <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 border-b border-slate-100 pb-3">
           <div>
@@ -668,7 +668,7 @@ export const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
               <span>Kawalan Pedagogi Guru</span>
             </div>
             <h3 className="text-base font-bold text-amber-950 font-display">
-              Pengesahan Kunci Jawapan Segmen Audio — Padankan Irama
+              Pengesahan Kunci Jawapan Segmen Audio — Teka Irama
             </h3>
             <p className="text-xs text-slate-500">
               Guru boleh menyemak pautan video YouTube, julat masa rasmi dan mengesahkan kategori irama bagi 4 segmen soalan murid.

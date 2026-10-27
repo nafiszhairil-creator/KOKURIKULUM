@@ -45,7 +45,7 @@ export const StudentDashboard: React.FC<StudentDashboardProps> = ({
     },
     {
       id: 'bedah',
-      title: 'Bedah Makna Syair',
+      title: 'Fahami Syair',
       subtitle: '4 Rangkap & Glosari Kata Klasik',
       icon: BookOpen,
       isDone: student.completedModules.bedahMakna,
@@ -53,7 +53,7 @@ export const StudentDashboard: React.FC<StudentDashboardProps> = ({
     },
     {
       id: 'game_match',
-      title: 'Permainan 1: Padankan Irama',
+      title: 'Permainan 1: Teka Irama',
       subtitle: 'Dengar & Padankan Dodoi vs Selendang Delima (4 Soalan)',
       icon: Gamepad2,
       isDone: student.completedModules.gameIramaMatch,
@@ -69,7 +69,7 @@ export const StudentDashboard: React.FC<StudentDashboardProps> = ({
     },
     {
       id: 'karaoke',
-      title: 'Permainan 3: Karaoke Pahlawan',
+      title: 'Permainan 3: Lagukan Syair',
       subtitle: 'Rakaman Suara & Refleksi Kendiri',
       icon: Mic,
       isDone: student.completedModules.karaoke,

@@ -110,7 +110,7 @@ export const BedahMakna: React.FC<BedahMaknaProps> = ({
             <span>Kefahaman Syair & Kosa Kata Klasik</span>
           </div>
           <h2 className="text-2xl font-bold text-amber-950 font-display">
-            Bedah Makna: Syair Pesanan Bonda
+            Fahami Syair: Syair Pesanan Bonda
           </h2>
           <p className="text-xs sm:text-sm text-slate-600">
             Terokai maksud harafiah dan idea keseluruhan setiap rangkap, semak glosari kata klasik, dan uji kefahaman melalui kuiz objektif 5 soalan.

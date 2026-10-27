@@ -193,7 +193,7 @@ export const GameIramaMatch: React.FC<GameIramaMatchProps> = ({
               }
             });
           } catch (e) {
-            console.warn('Ralat inisialisasi pemain YouTube Padankan Irama:', e);
+            console.warn('Ralat inisialisasi pemain YouTube Teka Irama:', e);
             setHasPlayerError(true);
           }
         } else {
@@ -317,7 +317,7 @@ export const GameIramaMatch: React.FC<GameIramaMatchProps> = ({
         });
       } catch {}
       setTimeout(() => setFloatingXpPopup(null), 2400);
-      onEarnXp(10, `Padankan Irama: Jawapan Betul (${currentQ.correctIrama === 'dodoi' ? 'Irama Dodoi' : 'Irama Selendang Delima'})`);
+      onEarnXp(10, `Teka Irama: Jawapan Betul (${currentQ.correctIrama === 'dodoi' ? 'Irama Dodoi' : 'Irama Selendang Delima'})`);
     } else {
       audioEngine.playIncorrectSfx();
       setCurrentStreak(0);
@@ -374,7 +374,7 @@ export const GameIramaMatch: React.FC<GameIramaMatchProps> = ({
 
   return (
     <div className="space-y-6">
-      {/* Hidden YouTube Iframe Player for the Padankan Irama Audio */}
+      {/* Hidden YouTube Iframe Player for the Teka Irama Audio */}
       <div className="fixed -bottom-96 -left-96 w-1 h-1 opacity-0 pointer-events-none" aria-hidden="true">
         <div id="padankan-irama-yt-player" />
       </div>
@@ -388,7 +388,7 @@ export const GameIramaMatch: React.FC<GameIramaMatchProps> = ({
             <span>Ujian Pendengaran & Pengecaman Irama</span>
           </div>
           <h2 className="text-2xl font-bold text-amber-950 font-display">
-            Padankan Irama
+            Teka Irama
           </h2>
           <p className="text-xs sm:text-sm text-slate-600">
             Dua kategori irama sahaja: <strong>Irama Dodoi</strong> dan <strong>Irama Selendang Delima</strong> dengan 4 segmen audio rasmi YouTube.
@@ -828,7 +828,7 @@ export const GameIramaMatch: React.FC<GameIramaMatchProps> = ({
 
           <div className="space-y-1">
             <span className="text-xs font-bold text-amber-800 uppercase tracking-widest block font-mono">
-              Keputusan Penuh: Padankan Irama
+              Keputusan Penuh: Teka Irama
             </span>
             <h3 className="text-3xl font-bold text-amber-950 font-display">
               {correctAnswersCount >= 3 ? 'Tahniah, Jaguh Irama Melayu!' : 'Percubaan Yang Baik, Pendekar!'}

@@ -210,7 +210,7 @@ export const KaraokePahlawan: React.FC<KaraokePahlawanProps> = ({
     audioEngine.playFanfareSfx();
     confetti({ particleCount: 70, spread: 65, origin: { y: 0.6 } });
     onEarnBadge('maestro_syair');
-    onEarnXp(50, 'Menyelesaikan Refleksi Karaoke Pahlawan');
+    onEarnXp(50, 'Menyelesaikan Refleksi Lagukan Syair');
   };
 
   // Rubric aspect labels and descriptors
@@ -276,7 +276,7 @@ export const KaraokePahlawan: React.FC<KaraokePahlawanProps> = ({
             <span>Studio Melagukan Syair & Refleksi Kendiri (SP 4.2.1)</span>
           </div>
           <h2 className="text-2xl font-bold text-amber-950 font-display">
-            Karaoke Pahlawan
+            Lagukan Syair
           </h2>
           <p className="text-xs sm:text-sm text-slate-600">
             Lagu kan syair dengan iringan <strong>Irama Dodoi</strong> atau <strong>Irama Selendang Delima</strong>, rakam suara anda secara setempat, dan lengkapkan rubrik penilaian kendiri.
